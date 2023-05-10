@@ -1,0 +1,7 @@
+salario = float(input("salario: "))
+conta1 = float(input("primeira conta: "))
+conta2 = float(input("segunda conta: "))
+conta1 = conta1 + ((2/100)*conta1)
+conta2 = conta2 + ((2/100)*conta2)
+resto = salario - (conta1 + conta2)
+print("O que sobrou do salario foi:", resto)

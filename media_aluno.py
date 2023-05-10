@@ -1,0 +1,11 @@
+t = float(input("Digite a nota do trabalho: "))
+p1 = float(input("Digite a nota da P1: "))
+p2 = float(input("Digite a nota da P2: "))
+l1 = float(input("Digite a nota da lista 1: "))
+l2 = float(input("Digite a nota da lista 2: "))
+l3 = float(input("Digite a nota da lista 3: "))
+l4 = float(input("Digite a nota da lista 4: "))
+l5 = float(input("Digite a nota da lista 5: "))
+media_l = (l1 + l2 + l3 + l4 + l5)/5
+media = (0.3*p1) + (0.4*p2) + (0.2*media_l) + (0.1*t)
+print("A media do aluno é {:.2f}".format(media))

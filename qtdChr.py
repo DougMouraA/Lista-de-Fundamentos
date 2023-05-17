@@ -1,0 +1,6 @@
+s = input("Digite uma cadeia: ")
+c = input("Digite um caracter: ")
+s = s.lower()
+c = c.lower()
+i = s.count(c)
+print(i)

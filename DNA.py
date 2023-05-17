@@ -1,0 +1,11 @@
+dna = input("DNA: ")
+dna = dna.upper()
+print(dna)
+dna = dna.replace("A", "@")
+dna = dna.replace("T", "A")
+dna = dna.replace("@", "T")
+
+dna = dna.replace("C", "@")
+dna = dna.replace("G", "C")
+dna = dna.replace("@", "G")
+print("O DNA complementar:", dna)
